@@ -98,7 +98,7 @@ const Education = () => {
 
             <div className="relative">
               {/* Timeline line */}
-              <div className="absolute left-[7px] top-2 bottom-2 w-0.5 bg-border" />
+              <div className="absolute left-1.75 top-2 bottom-2 w-0.5 bg-border" />
 
               <div className="space-y-8">
                 {education.map((edu, index) => (
@@ -204,7 +204,7 @@ const Education = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="mt-8 p-6 rounded-xl bg-gradient-to-br from-primary/10 to-accent/5 border border-primary/20"
+              className="mt-8 p-6 rounded-xl bg-linear-to-br from-primary/10 to-accent/5 border border-primary/20"
             >
               <h4 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
                 <Award size={20} className="text-primary" />

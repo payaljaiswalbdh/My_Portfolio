@@ -10,7 +10,7 @@ const About = () => {
   { value: "5", label: "Star Rating", suffix: "★" },
   { value: "6+", label: "Projects", suffix: "" },
 ];
-  ];
+  
 
   return (
     <section id="about" className="py-24 relative">
@@ -71,7 +71,7 @@ const About = () => {
                 </div>
               </div>
 
-              <p className="text-muted-foreground leading-relaxed pl-[60px]">
+              <p className="text-muted-foreground leading-relaxed pl-15">
                 I specialize in building full-stack applications using{" "}
                 <span className="text-primary font-medium">Java</span>,{" "}
                 <span className="text-primary font-medium">Node.js</span>,{" "}
@@ -81,7 +81,7 @@ const About = () => {
                 scalable backend systems and RESTful APIs.
               </p>
             </div>
-            <div className="pl-[60px]">
+            <div className="pl-15">
   <a
     href="/resume payal (1).pdf"
     target="_blank"

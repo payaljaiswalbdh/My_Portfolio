@@ -11,8 +11,7 @@ const skillCategories = [
       { name: "Java" },
       { name: "Python" },
       { name: "JavaScript (ES6+)"},
-      { name: "TypeScript" },
-      { name: "React" }
+      { name: "TypeScript" }
     ],
   },
   {
@@ -152,6 +151,7 @@ const Skills = () => {
               "SQL",
               "Git",
               "TypeScript",
+              "Machine Learning",
             ].map((tech, index) => (
               <motion.span
                 key={tech}

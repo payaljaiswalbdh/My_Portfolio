@@ -6,9 +6,9 @@ import { GraduationCap, Target, Sparkles } from "lucide-react";
 const About = () => {
   const stats = [
     { value: "8.32", label: "CGPA", suffix: "/10" },
-    { value: "200+", label: "Problems Solved", suffix: "" },
+    { value: "220+", label: "Problems Solved", suffix: "" },
     { value: "5", label: "Star Rating", suffix: "★" },
-    { value: "4+", label: "Projects", suffix: "" },
+    { value: "6+", label: "Projects", suffix: "" },
   ];
 
   return (

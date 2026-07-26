@@ -132,6 +132,68 @@ const projects = [
   demo: "https://drive.google.com/file/d/1bxxTIS13AWW-yaTHwz378U3hifOW0I_k/view?usp=sharing",
   featured: true,
 },
+{
+  title: "Kashi Carpets",
+  subtitle: "Premium Carpet & Rug Business Website",
+  period: "Jul 2026",
+  description:
+    "A premium, fully responsive business website developed for Kashi Carpets, showcasing handcrafted carpets and rugs with an elegant UI, product catalog, WhatsApp enquiry integration, and smooth interactive animations.",
+  highlights: [
+    "Designed a modern multi-page website featuring Home, About, Products, and Contact pages",
+    "Implemented product filtering, animated hero section, scroll animations, and responsive navigation for an engaging user experience",
+    "Integrated WhatsApp enquiry system, contact form validation, localStorage support, and dynamic business information management",
+    "Built reusable HTML, CSS, and JavaScript architecture with a single-source configuration for business details and products"
+  ],
+  techStack: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Responsive Design",
+    "LocalStorage",
+    "WhatsApp API",
+    "Google Fonts",
+    "CSS Animations"
+  ],
+  github: "https://github.com/payaljaiswalbdh/kashi_carpet_portfolio", // Replace with your repository
+  featured: true,
+
+},
+{
+  title: "Fraud Detection AI Agent",
+  subtitle: "AI-Powered Financial Transaction Fraud Detection System",
+  period: "Jul 2026 – Present (Ongoing)",
+  description:
+    "An ongoing full-stack AI-powered fraud detection platform that combines Machine Learning (Isolation Forest) with Google Gemini AI to identify suspicious financial transactions, explain fraud risks, and recommend preventive actions through an interactive analytics dashboard.",
+  highlights: [
+    "Developing a full-stack fraud detection platform using React, Node.js, Express, MongoDB, and a Python Flask microservice",
+    "Integrating an Isolation Forest machine learning model with Google Gemini AI to generate fraud predictions, risk scores, explanations, and recommended actions",
+    "Building a real-time analytics dashboard featuring fraud trends, risk distribution charts, transaction management, CSV bulk upload, and PDF report generation",
+    "Implementing JWT authentication, role-based access control, email fraud alerts, secure API architecture, and graceful fallback mechanisms for reliable predictions"
+  ],
+  techStack: [
+    "React",
+    "Vite",
+    "JavaScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "JWT",
+    "Python",
+    "Flask",
+    "Scikit-learn",
+    "Isolation Forest",
+    "Google Gemini API",
+    "Recharts",
+    "Axios",
+    "Nodemailer",
+    "PDFKit"
+  ],
+  github: "https://github.com/payaljaiswalbdh/Fraud_detection_ai_agent", // Replace with your repository
+  featured: true,
+},
 ];
 
 const Projects = () => {

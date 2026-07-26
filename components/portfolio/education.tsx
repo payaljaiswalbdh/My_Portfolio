@@ -11,7 +11,11 @@ const education = [
     location: "Kanpur, Uttar Pradesh",
     period: "2023 – 2027",
     grade: "CGPA: 8.32/10",
+<<<<<<< HEAD
     gradeNote: "(Up to 5th Sem)",
+=======
+    gradeNote: "(Up to 6th Sem)",
+>>>>>>> master
     current: true,
   },
   {
@@ -214,7 +218,11 @@ const Education = () => {
                 <li className="flex items-start gap-3 text-muted-foreground">
                   <span className="w-2 h-2 mt-2 bg-primary rounded-full shrink-0" />
                   <span>
+<<<<<<< HEAD
                     Solved <span className="text-primary font-semibold">200+ problems</span> on
+=======
+                    Solved <span className="text-primary font-semibold">220+ problems</span> on
+>>>>>>> master
                     LeetCode, demonstrating proficiency in data structures and algorithms
                   </span>
                 </li>

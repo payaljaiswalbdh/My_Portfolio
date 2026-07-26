@@ -60,10 +60,14 @@ const Hero = () => {
               transition={{ delay: 0.5, duration: 0.6 }}
               className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-lg"
             >
+<<<<<<< HEAD
               Computer Science undergraduate with strong problem-solving skills
               and a solid foundation in software development. Experienced in
               building full-stack applications with a focus on scalable backend
               systems and RESTful APIs.
+=======
+              Computer Science undergraduate with strong problem-solving skills and hands-on experience in full-stack application development using React.js, Node.js, Express.js, MongoDB, and SQL. Proficient in designing RESTful APIs, scalable backend systems, and AI-powered applications using Python and machine learning.
+>>>>>>> master
             </motion.p>
 
             {/* CTA Buttons */}

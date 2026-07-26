@@ -52,6 +52,7 @@ const projects = [
     featured: true,
   },
   {
+<<<<<<< HEAD
   title: "StudySphere",
   subtitle: "Academic Workflow Coordination Layer",
   period: "Dec 2025 — Mar 2026",
@@ -100,6 +101,150 @@ github: "https://github.com/payaljaiswalbdh/studyplanner/tree/main/StudySphere-m
   github: "https://github.com/payaljaiswalbdh/My_Portfolio",
   featured: true,
 }
+=======
+  title: "CogniBoard",
+  subtitle: "AI-Native Visual Kanban Board",
+  period: "Jul 2026 — Present",
+  description:
+    "A full-stack AI-powered MERN Kanban application that transforms text and voice input into structured tasks using Google Gemini 2.5 Flash, featuring intuitive drag-and-drop task management.",
+  highlights: [
+    "Converted text and voice input into structured tasks using Google Gemini 2.5 Flash",
+    "Implemented drag-and-drop Kanban boards with smooth task movement and responsive interactions",
+    "Built secure REST APIs with Node.js, Express.js, and MongoDB Atlas for task management",
+    "Designed a modern responsive UI with Tailwind CSS and AI-powered workflow automation",
+  ],
+  techStack: [
+    "React.js",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB Atlas",
+    "Google Gemini 2.5 Flash",
+    "Tailwind CSS",
+    "Axios",
+    "@hello-pangea/dnd",
+    "Web Speech API",
+  ],
+  github: "https://github.com/payaljaiswalbdh/CogniBoard", // Replace with your repository
+  featured: true,
+},
+{
+  title: "Freelancer Portfolio Website",
+  subtitle: "Responsive Portfolio for a Frontend Developer",
+  period: "May 2026",
+  description:
+    "Designed and developed a modern one-page portfolio website for a freelance frontend developer with responsive layouts, animations, and SEO optimization.",
+  highlights: [
+    "Built a responsive portfolio using HTML5, CSS3, and JavaScript",
+    "Designed a modern glassmorphism UI with smooth animations and typing effects",
+    "Integrated Formspree contact form, resume download, and SEO optimization",
+    "Deployed on Vercel with version control using Git and GitHub"
+  ],
+  techStack: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Formspree",
+    "Git",
+    "GitHub",
+    "Vercel"
+  ],
+  github: "https://github.com/payaljaiswalbdh/teenlancer-portfolio-uiu",
+  live: "https://teenlancer-portfolio-ten.vercel.app/",
+  featured: true,
+},
+{
+  title: "Study Assistant",
+  subtitle: "AI-Powered Flashcards & Quiz Generator",
+  period: "Jul 2026",
+  description:
+    "An AI-powered study application that transforms notes into interactive flashcards and quizzes using Google Gemini API, featuring robust validation, offline fallback, and a modern responsive interface.",
+  highlights: [
+    "Generated AI-powered flashcards and quizzes from study notes using Google Gemini 2.5 Flash",
+    "Implemented schema validation, deterministic fallback generation, and graceful error handling for reliable AI responses",
+    "Built an interactive study experience with dark mode, session history, Markdown export, and animated flashcards",
+    "Developed a secure Express proxy to protect API keys and integrated localStorage for persistent study history"
+  ],
+  techStack: [
+    "React 19",
+    "Vite",
+    "JavaScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Node.js",
+    "Express.js",
+    "Google Gemini 2.5 Flash",
+    "Lucide React",
+    "localStorage"
+  ],
+  github: "https://github.com/payaljaiswalbdh/study-assistant", // Replace with your GitHub repository
+  live: "https://study-assistant-theta.vercel.app/",
+  demo: "https://drive.google.com/file/d/1bxxTIS13AWW-yaTHwz378U3hifOW0I_k/view?usp=sharing",
+  featured: true,
+},
+{
+  title: "Kashi Carpets",
+  subtitle: "Premium Carpet & Rug Business Website",
+  period: "Jul 2026",
+  description:
+    "A premium, fully responsive business website developed for Kashi Carpets, showcasing handcrafted carpets and rugs with an elegant UI, product catalog, WhatsApp enquiry integration, and smooth interactive animations.",
+  highlights: [
+    "Designed a modern multi-page website featuring Home, About, Products, and Contact pages",
+    "Implemented product filtering, animated hero section, scroll animations, and responsive navigation for an engaging user experience",
+    "Integrated WhatsApp enquiry system, contact form validation, localStorage support, and dynamic business information management",
+    "Built reusable HTML, CSS, and JavaScript architecture with a single-source configuration for business details and products"
+  ],
+  techStack: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Responsive Design",
+    "LocalStorage",
+    "WhatsApp API",
+    "Google Fonts",
+    "CSS Animations"
+  ],
+  github: "https://github.com/payaljaiswalbdh/kashi_carpet_portfolio", // Replace with your repository
+  featured: true,
+
+},
+{
+  title: "Fraud Detection AI Agent",
+  subtitle: "AI-Powered Financial Transaction Fraud Detection System",
+  period: "Jul 2026 – Present (Ongoing)",
+  description:
+    "An ongoing full-stack AI-powered fraud detection platform that combines Machine Learning (Isolation Forest) with Google Gemini AI to identify suspicious financial transactions, explain fraud risks, and recommend preventive actions through an interactive analytics dashboard.",
+  highlights: [
+    "Developing a full-stack fraud detection platform using React, Node.js, Express, MongoDB, and a Python Flask microservice",
+    "Integrating an Isolation Forest machine learning model with Google Gemini AI to generate fraud predictions, risk scores, explanations, and recommended actions",
+    "Building a real-time analytics dashboard featuring fraud trends, risk distribution charts, transaction management, CSV bulk upload, and PDF report generation",
+    "Implementing JWT authentication, role-based access control, email fraud alerts, secure API architecture, and graceful fallback mechanisms for reliable predictions"
+  ],
+  techStack: [
+    "React",
+    "Vite",
+    "JavaScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "JWT",
+    "Python",
+    "Flask",
+    "Scikit-learn",
+    "Isolation Forest",
+    "Google Gemini API",
+    "Recharts",
+    "Axios",
+    "Nodemailer",
+    "PDFKit"
+  ],
+  github: "https://github.com/payaljaiswalbdh/Fraud_detection_ai_agent", // Replace with your repository
+  featured: true,
+},
+>>>>>>> master
 ];
 
 const Projects = () => {

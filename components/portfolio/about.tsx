@@ -5,8 +5,6 @@ import { GraduationCap, Target, Sparkles } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { value: "8.32", label: "CGPA", suffix: "/10" },
-const stats = [
   { value: "8.32", label: "CGPA", suffix: "/10" },
   { value: "220+", label: "Problems Solved", suffix: "" },
   { value: "5", label: "Star Rating", suffix: "★" },
@@ -85,7 +83,7 @@ const stats = [
             </div>
             <div className="pl-[60px]">
   <a
-    href="\resume payal (1).pdf"
+    href="/resume payal (1).pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center px-6 py-3 mt-2 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition-opacity"

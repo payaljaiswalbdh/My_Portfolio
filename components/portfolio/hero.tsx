@@ -58,16 +58,8 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.6 }}
-              className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-lg"
-            >
-<<<<<<< HEAD
-              Computer Science undergraduate with strong problem-solving skills
-              and a solid foundation in software development. Experienced in
-              building full-stack applications with a focus on scalable backend
-              systems and RESTful APIs.
-=======
-              Computer Science undergraduate with strong problem-solving skills and hands-on experience in full-stack application development using React.js, Node.js, Express.js, MongoDB, and SQL. Proficient in designing RESTful APIs, scalable backend systems, and AI-powered applications using Python and machine learning.
->>>>>>> master
+              className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-lg">
+  Computer Science undergraduate with strong problem-solving skills and hands-on experience in full-stack application development using React.js, Node.js, Express.js, MongoDB, and SQL. Proficient in designing RESTful APIs, scalable backend systems, and AI-powered applications using Python and machine learning.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -162,7 +154,7 @@ const Hero = () => {
       transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
       className="absolute -top-4 -right-4 px-4 py-2 bg-card border border-border rounded-lg shadow-lg"
     >
-      <span className="text-sm font-medium text-primary">200+</span>
+      <span className="text-sm font-medium text-primary">220+</span>
       <span className="text-xs text-muted-foreground ml-1">
         LeetCode
       </span>
